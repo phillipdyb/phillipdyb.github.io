@@ -5,6 +5,14 @@
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/phillip-dyb-sandnes-9881b6201/', icon: '💼' }
   ];
 
+  // Subsites
+  const subsites = [
+    { name: 'Security', url: 'https://sec.philz.no/', icon: '🔐' },
+    { name: 'Sysdev', url: 'https://sysdev.philz.no/', icon: '🛠️' }
+  ];
+
+  const subsitesDescription = 'These sites are quizzes for different exams. Go to the pages and take the quiz if you want to prepare for the exam.';
+
   // Content sections
   const sections = [
     {
@@ -45,6 +53,20 @@
           </a>
         {/each}
       </div>
+    </section>
+
+    <!-- Subsites Section -->
+    <section class="socials">
+      <h2>My Subsites</h2>
+      <div class="social-grid">
+        {#each subsites as site}
+          <a href={site.url} class="social-link" target="_blank" rel="noopener noreferrer">
+            <span class="icon">{site.icon}</span>
+            <span class="name">{site.name}</span>
+          </a>
+        {/each}
+      </div>
+      <p class="subsites-description">{subsitesDescription}</p>
     </section>
 
     <!-- Content Sections -->
@@ -151,6 +173,13 @@
   .name {
     font-size: 0.9rem;
     font-weight: 500;
+  }
+
+  .subsites-description {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
   }
 
   .content-section {
