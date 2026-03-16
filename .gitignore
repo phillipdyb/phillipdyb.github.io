@@ -1,0 +1,4 @@
+.DS_Store
+.svelte-kit/
+.vscode/
+docs/_app/
