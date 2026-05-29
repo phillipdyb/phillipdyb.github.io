@@ -8,10 +8,11 @@
   // Subsites
   const subsites = [
     { name: 'Security', url: 'https://sec.philz.no/', icon: '🔐' },
-    { name: 'Sysdev', url: 'https://sysdev.philz.no/', icon: '🛠️' }
+    { name: 'Sysdev', url: 'https://sysdev.philz.no/', icon: '🛠️' },
+    { name: 'Database', url: 'https://db.philz.no/', icon: '🗄️' }
   ];
 
-  const subsitesDescription = 'These sites are quizzes for different exams. Go to the pages and take the quiz if you want to prepare for the exam.';
+  const subsitesDescription = 'These are exam resource sites covering theory and concepts for different subjects. Use them to study and prepare for your exams.';
 
   // Content sections
   const sections = [
