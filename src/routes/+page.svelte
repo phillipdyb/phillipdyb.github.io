@@ -9,7 +9,8 @@
   const subsites = [
     { name: 'Security', url: 'https://sec.philz.no/', icon: '🔐' },
     { name: 'Sysdev', url: 'https://sysdev.philz.no/', icon: '🛠️' },
-    { name: 'Database', url: 'https://db.philz.no/', icon: '🗄️' }
+    { name: 'Database', url: 'https://db.philz.no/', icon: '🗄️' },
+    { name: 'Operative Systemer', url: 'https://os.philz.no/', icon: '🗄️' }
   ];
 
   const subsitesDescription = 'These are exam resource sites covering theory and concepts for different subjects. Use them to study and prepare for your exams.';
